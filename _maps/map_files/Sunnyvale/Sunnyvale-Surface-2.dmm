@@ -5041,7 +5041,7 @@
 /turf/closed/wall/r_wall/f13superstore{
 	icon_state = "supermart0"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aqJ" = (
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
@@ -5178,7 +5178,7 @@
 /area/f13/raiders)
 "arf" = (
 /turf/closed/wall/r_wall,
-/area/f13/enclave)
+/area/f13/followers)
 "arg" = (
 /obj/machinery/shower{
 	dir = 4;
@@ -5445,13 +5445,13 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "arO" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "arP" = (
 /obj/structure/sign/directions/engineering{
 	desc = "A handy sign praising the engineering department.";
@@ -5659,10 +5659,10 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ass" = (
 /turf/open/floor/plasteel/elevatorshaft,
-/area/f13/enclave)
+/area/f13/followers)
 "ast" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8;
@@ -5671,7 +5671,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "asu" = (
 /obj/structure/closet/radiation,
 /obj/item/clothing/suit/radiation,
@@ -6210,7 +6210,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "atI" = (
 /obj/docking_port/stationary{
 	area_type = /area/f13/underground/enclave_base;
@@ -6225,7 +6225,7 @@
 	width = 4
 	},
 /turf/open/floor/plasteel/elevatorshaft,
-/area/f13/enclave)
+/area/f13/followers)
 "atJ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8;
@@ -6237,7 +6237,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "atK" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -6456,7 +6456,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aun" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1;
@@ -6465,7 +6465,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aup" = (
 /obj/machinery/power/apc{
 	dir = 8;
@@ -6775,7 +6775,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "auV" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Generator Room";
@@ -6987,7 +6987,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "avp" = (
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
 	dir = 1;
@@ -7249,7 +7249,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "avT" = (
 /obj/structure/sign/poster/official/build{
 	pixel_x = -32
@@ -8090,7 +8090,7 @@
 /area/maintenance/disposal)
 "axR" = (
 /turf/closed/indestructible/rock,
-/area/f13/enclave)
+/area/f13/followers)
 "axS" = (
 /obj/effect/decal/cleanable/oil{
 	icon_state = "floor5"
@@ -8312,7 +8312,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ayx" = (
 /obj/item/radio/intercom{
 	frequency = 1361;
@@ -9067,7 +9067,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aAl" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -9735,7 +9735,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aBP" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -9801,7 +9801,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aBY" = (
 /obj/machinery/light{
 	dir = 1
@@ -9813,23 +9813,23 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aBZ" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCa" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCb" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCc" = (
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
@@ -9939,19 +9939,19 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCs" = (
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCt" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCu" = (
 /obj/structure/sign/warning/nosmoking,
 /turf/closed/wall/r_wall/f13vault{
@@ -10016,7 +10016,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCC" = (
 /obj/machinery/light{
 	dir = 1
@@ -10026,7 +10026,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCD" = (
 /obj/structure/chair{
 	dir = 1;
@@ -10036,13 +10036,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCE" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCF" = (
 /obj/machinery/light{
 	dir = 4
@@ -10050,7 +10050,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCG" = (
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
@@ -10125,14 +10125,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCS" = (
 /obj/structure/chair,
 /mob/living/simple_animal/hostile/handy/protectron,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCT" = (
 /obj/machinery/door/airlock/hatch{
 	req_access_txt = "100"
@@ -10140,7 +10140,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCU" = (
 /obj/machinery/door/airlock/hatch{
 	req_access_txt = "100"
@@ -10148,7 +10148,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aCV" = (
 /obj/structure/guncase/shotgun,
 /obj/item/gun/ballistic/shotgun/trench,
@@ -10247,31 +10247,31 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aDj" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aDk" = (
 /obj/machinery/vending/nukacolavend,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aDl" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aDm" = (
 /mob/living/simple_animal/hostile/handy/protectron,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aDn" = (
 /obj/structure/chair{
 	dir = 8;
@@ -10280,7 +10280,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aDo" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
@@ -10391,13 +10391,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aDC" = (
 /obj/effect/spawner/lootdrop/f13/cash_ncr_high,
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aDD" = (
 /obj/structure/chair{
 	dir = 8;
@@ -10407,7 +10407,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aDE" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
@@ -10577,7 +10577,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aDY" = (
 /obj/structure/chair/stool/retro{
 	icon_state = "bench_center";
@@ -10586,7 +10586,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aDZ" = (
 /obj/structure/chair/stool/retro{
 	dir = 8;
@@ -10596,13 +10596,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aEa" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aEb" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -10755,7 +10755,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aEw" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -10901,7 +10901,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aEP" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
@@ -10909,19 +10909,19 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aEQ" = (
 /obj/structure/chair,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aER" = (
 /mob/living/simple_animal/hostile/handy/protectron,
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aES" = (
 /obj/structure/table,
 /obj/effect/turf_decal/stripes/line{
@@ -11015,7 +11015,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFd" = (
 /obj/structure/table,
 /obj/machinery/light{
@@ -11038,7 +11038,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFf" = (
 /obj/structure/closet/crate/freezer/surplus_limbs,
 /obj/item/reagent_containers/glass/beaker/synthflesh,
@@ -11055,14 +11055,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFh" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFi" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
@@ -11131,13 +11131,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFr" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -11156,7 +11156,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFv" = (
 /obj/structure/table,
 /obj/machinery/light,
@@ -11217,7 +11217,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFB" = (
 /obj/structure/window/fulltile/wood_window,
 /turf/open/floor/plating/f13/outside/road{
@@ -11288,7 +11288,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFM" = (
 /turf/closed/wall/r_wall/f13composite{
 	icon_state = "ruins0"
@@ -11307,13 +11307,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFQ" = (
 /mob/living/simple_animal/hostile/handy/protectron,
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFR" = (
 /obj/machinery/light{
 	dir = 1
@@ -11321,7 +11321,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFS" = (
 /obj/structure/table,
 /obj/machinery/light/small{
@@ -11337,14 +11337,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFU" = (
 /obj/structure/bed,
 /obj/item/bedsheet/black,
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFV" = (
 /obj/machinery/light{
 	dir = 4
@@ -11354,7 +11354,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aFW" = (
 /turf/open/floor/plating/f13/outside/road{
 	icon_state = "outerpavement"
@@ -11404,13 +11404,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aGi" = (
 /mob/living/simple_animal/hostile/handy,
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aGj" = (
 /obj/structure/bed,
 /obj/item/bedsheet{
@@ -11448,7 +11448,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aGq" = (
 /turf/closed/wall/f13wood{
 	icon_state = "wood2"
@@ -11503,7 +11503,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aGz" = (
 /obj/structure/fence{
 	dir = 4;
@@ -11587,12 +11587,12 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aGM" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aGN" = (
 /obj/structure/table,
 /obj/machinery/light,
@@ -11610,7 +11610,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aGP" = (
 /obj/structure/toilet{
 	dir = 8;
@@ -11619,25 +11619,25 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aGQ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aGR" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aGS" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aGT" = (
 /turf/closed/wall/r_wall/f13superstore{
 	icon_state = "supermart3"
@@ -11690,7 +11690,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aHd" = (
 /obj/machinery/light,
 /obj/structure/rack,
@@ -11698,7 +11698,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aHe" = (
 /obj/machinery/door/airlock/hatch{
 	req_access_txt = "100"
@@ -11706,7 +11706,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aHf" = (
 /obj/machinery/light{
 	dir = 4
@@ -11718,26 +11718,26 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aHg" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aHh" = (
 /obj/machinery/porta_turret/syndicate,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aHi" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aHj" = (
 /turf/closed/wall/r_wall/f13superstore{
 	icon_state = "supermart6"
@@ -11766,30 +11766,30 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aHp" = (
 /obj/structure/chair,
 /mob/living/simple_animal/hostile/handy/protectron,
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aHq" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aHr" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aHs" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aHt" = (
 /turf/closed/wall/r_wall/f13superstore{
 	icon_state = "supermart3"
@@ -11801,7 +11801,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aHv" = (
 /obj/item/flag/ncr,
 /turf/open/indestructible/ground/outside/desert,
@@ -11823,7 +11823,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aHz" = (
 /obj/machinery/chem_heater,
 /turf/open/floor/plasteel/f13{
@@ -11966,7 +11966,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aHW" = (
 /mob/living/simple_animal/hostile/handy/protectron,
 /turf/open/floor/plasteel/f13{
@@ -12003,12 +12003,12 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aIe" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "catwalk"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aIf" = (
 /obj/structure/chair{
 	dir = 4;
@@ -12017,7 +12017,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aIg" = (
 /obj/structure/table,
 /obj/machinery/light{
@@ -12026,7 +12026,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aIh" = (
 /obj/machinery/light{
 	dir = 1
@@ -12034,7 +12034,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "catwalk"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aIi" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/f13{
@@ -12192,7 +12192,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aIP" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/wood/f13/old,
@@ -12244,7 +12244,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aJc" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -12257,7 +12257,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aJe" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
@@ -12271,7 +12271,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aJg" = (
 /turf/open/floor/plating/f13/outside/road{
 	dir = 2;
@@ -12399,7 +12399,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aJC" = (
 /obj/structure/table,
 /obj/machinery/light{
@@ -12408,13 +12408,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aJD" = (
 /obj/structure/chair,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aJE" = (
 /obj/structure/table/wood,
 /obj/item/stack/sheet/cardboard,
@@ -12450,7 +12450,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aJK" = (
 /turf/closed/wall/r_wall/f13composite{
 	icon_state = "ruins9alt"
@@ -12464,12 +12464,12 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aJM" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aJN" = (
 /turf/closed/wall/r_wall/f13superstore{
 	icon_state = "supermart9"
@@ -12526,13 +12526,13 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aJX" = (
 /obj/machinery/porta_turret/syndicate,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aJY" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -12541,7 +12541,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aJZ" = (
 /turf/open/floor/plating/f13/outside/road{
 	dir = 8;
@@ -12649,7 +12649,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aKq" = (
 /obj/structure/chair{
 	dir = 1;
@@ -12659,7 +12659,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aKr" = (
 /obj/machinery/door/airlock/hatch{
 	req_access_txt = "100"
@@ -12667,7 +12667,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aKs" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 10;
@@ -12677,7 +12677,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrustysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aKt" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrustysolid"
@@ -12763,7 +12763,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrustysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aKG" = (
 /obj/effect/spawner/lootdrop/f13/resourcespawner,
 /obj/structure/rack,
@@ -12805,7 +12805,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aKN" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 9;
@@ -12815,7 +12815,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrustysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aKP" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -12928,7 +12928,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aLg" = (
 /turf/open/floor/plating/f13/outside/road{
 	dir = 1;
@@ -13464,14 +13464,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aMX" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aMY" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/machinery/seed_extractor,
@@ -13520,7 +13520,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aNo" = (
 /obj/machinery/light/small,
 /obj/structure/chair{
@@ -13917,7 +13917,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aOP" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
@@ -14977,7 +14977,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aSt" = (
 /obj/structure/chair/stool/retro{
 	name = "stool"
@@ -28838,7 +28838,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "bluefull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bJq" = (
 /obj/structure/bed,
 /obj/item/bedsheet/black,
@@ -30181,7 +30181,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bSU" = (
 /turf/closed/indestructible/f13/matrix,
 /area/crew_quarters/dorms)
@@ -30687,7 +30687,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bUU" = (
 /obj/item/storage/firstaid/toxin,
 /turf/open/indestructible/ground/outside/desert,
@@ -31041,7 +31041,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bWd" = (
 /obj/structure/table,
 /obj/machinery/recharger,
@@ -31499,7 +31499,7 @@
 "fAW" = (
 /obj/structure/timeddoor,
 /turf/closed/indestructible/rock,
-/area/f13/enclave)
+/area/f13/followers)
 "fFI" = (
 /obj/structure/sign/warning/securearea,
 /obj/structure/timeddoor,
@@ -31623,7 +31623,7 @@
 /turf/closed/wall/r_wall/f13superstore{
 	icon_state = "supermart0"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "hAd" = (
 /obj/structure/table/wood,
 /obj/item/radio/off,
@@ -41737,7 +41737,7 @@ auU
 aFr
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -42139,7 +42139,7 @@ ayw
 auU
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -47344,7 +47344,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+axR
 aqI
 aqI
 aqI
@@ -47360,7 +47360,7 @@ aqI
 aqI
 aqI
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -47746,7 +47746,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+axR
 aqI
 arf
 arf
@@ -47762,7 +47762,7 @@ arf
 arf
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -48148,7 +48148,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+axR
 aqI
 arf
 aEv
@@ -48164,7 +48164,7 @@ aCa
 aEv
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -48550,7 +48550,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+axR
 aqI
 arf
 aBY
@@ -48566,7 +48566,7 @@ aCa
 aFq
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -48952,7 +48952,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+axR
 aqI
 arf
 aBZ
@@ -48968,7 +48968,7 @@ aCa
 aBZ
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -52972,9 +52972,9 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
+axR
+axR
+axR
 axR
 axR
 aqI
@@ -52986,9 +52986,9 @@ arf
 aqI
 axR
 axR
-aaa
-aaa
-aaa
+axR
+axR
+axR
 aaa
 aaa
 aaa
@@ -53390,7 +53390,7 @@ aqI
 aqI
 aqI
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -53792,7 +53792,7 @@ arf
 arf
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -54194,7 +54194,7 @@ auU
 auU
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -54596,7 +54596,7 @@ auU
 aFr
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -54998,7 +54998,7 @@ auU
 auU
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -55400,7 +55400,7 @@ auU
 auU
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -55802,7 +55802,7 @@ auU
 auU
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -56204,7 +56204,7 @@ auU
 aFr
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -56606,7 +56606,7 @@ auU
 auU
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -57008,7 +57008,7 @@ arf
 arf
 arf
 aqI
-aaa
+axR
 aaa
 aaa
 aaa
@@ -57410,7 +57410,7 @@ aqI
 aqI
 aqI
 aqI
-aaa
+axR
 aaa
 aaa
 aaa

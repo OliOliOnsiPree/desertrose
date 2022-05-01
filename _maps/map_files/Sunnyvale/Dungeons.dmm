@@ -4,7 +4,7 @@
 /area/f13/underground/cave)
 "ab" = (
 /turf/closed/wall/r_wall,
-/area/f13/enclave)
+/area/f13/followers)
 "ac" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/rack,
@@ -12,10 +12,10 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ad" = (
 /turf/closed/indestructible/rock,
-/area/f13/enclave)
+/area/f13/followers)
 "ae" = (
 /obj/effect/decal/cleanable/cobweb{
 	icon_state = "cobweb2"
@@ -25,7 +25,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "af" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light{
@@ -34,13 +34,13 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ag" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ah" = (
 /obj/machinery/light{
 	dir = 8
@@ -48,7 +48,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ai" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
@@ -56,7 +56,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aj" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
@@ -64,7 +64,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ak" = (
 /obj/machinery/light{
 	dir = 4
@@ -72,7 +72,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "al" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -80,10 +80,10 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "am" = (
 /turf/open/floor/plasteel/elevatorshaft,
-/area/f13/enclave)
+/area/f13/followers)
 "an" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8;
@@ -92,7 +92,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ao" = (
 /obj/machinery/door/airlock/hatch{
 	req_access_txt = "100"
@@ -100,7 +100,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ap" = (
 /obj/docking_port/stationary{
 	area_type = /area/f13/underground/enclave_base;
@@ -115,7 +115,7 @@
 	width = 4
 	},
 /turf/open/floor/plasteel/elevatorshaft,
-/area/f13/enclave)
+/area/f13/followers)
 "aq" = (
 /obj/effect/turf_decal/stripes/line{
 	icon_state = "warningline";
@@ -124,12 +124,12 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ar" = (
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "as" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
@@ -137,13 +137,13 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "at" = (
 /obj/structure/rack,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "au" = (
 /obj/structure/rack,
 /obj/machinery/light{
@@ -152,20 +152,20 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "av" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aw" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ax" = (
 /obj/structure/rack,
 /obj/machinery/light{
@@ -174,7 +174,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "az" = (
 /obj/structure/fence{
 	icon_state = "straight";
@@ -183,44 +183,44 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aA" = (
 /obj/structure/simple_door/metal/fence,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aB" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aC" = (
 /obj/machinery/porta_turret/syndicate{
 	scan_range = 10
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aD" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4;
 	icon_state = "warningline"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aE" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8;
 	icon_state = "warningline"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aF" = (
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aG" = (
 /obj/machinery/light{
 	dir = 1
@@ -228,39 +228,39 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aH" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aI" = (
 /obj/effect/turf_decal/stripes/line{
 	icon_state = "warningline";
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aJ" = (
 /obj/effect/turf_decal/stripes/line{
 	icon_state = "warningline";
 	dir = 10
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aK" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "aL" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aM" = (
 /obj/structure/table/wood,
 /obj/item/pen/fountain/captain,
@@ -268,7 +268,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aN" = (
 /obj/machinery/light{
 	dir = 1
@@ -276,7 +276,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aO" = (
 /obj/machinery/door/airlock/hatch{
 	req_access_txt = "100"
@@ -284,21 +284,21 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aP" = (
 /obj/structure/table/wood,
 /obj/item/clothing/mask/cigarette/cigar/havana,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aQ" = (
 /obj/structure/safe,
 /obj/item/key,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aR" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -306,7 +306,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aS" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -314,7 +314,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aT" = (
 /obj/machinery/door/airlock/hatch{
 	req_access_txt = "100"
@@ -325,7 +325,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aU" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -336,7 +336,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aV" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -347,7 +347,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aW" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -355,34 +355,34 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aX" = (
 /obj/structure/table/wood,
 /obj/item/folder,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aY" = (
 /obj/item/cigbutt/cigarbutt,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "aZ" = (
 /obj/effect/turf_decal/stripes/line{
 	icon_state = "warningline";
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "ba" = (
 /obj/effect/turf_decal/stripes/line{
 	icon_state = "warningline";
 	dir = 5
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bb" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -390,14 +390,14 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bc" = (
 /obj/effect/turf_decal/stripes/line{
 	icon_state = "warningline";
 	dir = 9
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bd" = (
 /obj/effect/turf_decal/stripes/line{
 	icon_state = "warningline";
@@ -407,7 +407,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "be" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -415,7 +415,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bf" = (
 /obj/machinery/door/airlock/hatch{
 	req_access_txt = "100"
@@ -423,24 +423,24 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bg" = (
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bh" = (
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bi" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bj" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -451,21 +451,21 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bk" = (
 /obj/structure/table/wood,
 /obj/item/clothing/mask/cigarette/cigar/cohiba,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bl" = (
 /obj/structure/table/wood,
 /obj/item/pen/edagger,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bm" = (
 /obj/structure/table/wood,
 /obj/item/paper,
@@ -473,14 +473,14 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bn" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bo" = (
 /obj/machinery/light{
 	dir = 8
@@ -488,20 +488,20 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bp" = (
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bq" = (
 /obj/structure/table/wood,
 /obj/item/folder/white,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "br" = (
 /obj/machinery/light{
 	dir = 4
@@ -509,7 +509,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bs" = (
 /mob/living/simple_animal/hostile/handy/gutsy{
 	a_intent = "harm";
@@ -518,7 +518,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bt" = (
 /obj/structure/table/reinforced,
 /obj/item/construction/rcd/combat,
@@ -526,12 +526,12 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bu" = (
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bv" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -539,13 +539,13 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bw" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bx" = (
 /obj/structure/table/reinforced,
 /obj/item/wirecutters,
@@ -555,7 +555,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "by" = (
 /obj/structure/chair{
 	dir = 8;
@@ -564,7 +564,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bz" = (
 /obj/structure/chair{
 	dir = 4;
@@ -573,34 +573,34 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bA" = (
 /obj/structure/table/reinforced,
 /obj/item/screwdriver,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bB" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/belt/utility/full,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bC" = (
 /obj/structure/table/reinforced,
 /obj/item/weldingtool/experimental,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bD" = (
 /obj/machinery/mecha_part_fabricator,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bE" = (
 /obj/machinery/mecha_part_fabricator,
 /obj/machinery/light{
@@ -609,20 +609,20 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bF" = (
 /obj/machinery/rnd/production/protolathe,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bG" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/rdconsole,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bH" = (
 /obj/machinery/light{
 	dir = 8
@@ -630,7 +630,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bI" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -639,32 +639,32 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bJ" = (
 /obj/machinery/autolathe,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bK" = (
 /obj/machinery/rnd/production/circuit_imprinter,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bL" = (
 /obj/machinery/rnd/destructive_analyzer,
 /obj/machinery/rnd/destructive_analyzer,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bM" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bN" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -676,7 +676,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bO" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -690,32 +690,32 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "bP" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bQ" = (
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bR" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bS" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bT" = (
 /obj/effect/decal/cleanable/cobweb{
 	icon_state = "cobweb2"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bU" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -726,34 +726,34 @@
 	pixel_x = -24
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bV" = (
 /obj/machinery/power/smes,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bW" = (
 /obj/machinery/power/port_gen/pacman/super,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bX" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/mineral/uranium{
 	amount = 50
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bY" = (
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "bZ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -762,13 +762,13 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "ca" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "cb" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -781,7 +781,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "cc" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -790,7 +790,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "cd" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -802,27 +802,27 @@
 	icon_state = "1-4"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "ce" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "cf" = (
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
 /obj/machinery/power/smes/magical,
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "cg" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/machinery/light,
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "ch" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -834,14 +834,14 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "ci" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /obj/machinery/light,
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "cj" = (
 /obj/structure/lattice,
 /turf/closed/indestructible/rock,
@@ -1068,7 +1068,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "cP" = (
 /obj/structure/chair{
 	dir = 8;
@@ -4803,7 +4803,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "lS" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -4812,14 +4812,14 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "lU" = (
 /obj/structure/table/wood,
 /obj/item/book/granter/trait/pa_wear,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "lV" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4828,7 +4828,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "lW" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/underground/cave)
@@ -4839,7 +4839,7 @@
 "lY" = (
 /mob/living/simple_animal/hostile/handy/gutsy,
 /turf/open/floor/plating,
-/area/f13/enclave)
+/area/f13/followers)
 "lZ" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/cave)
@@ -4907,13 +4907,13 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "mm" = (
 /mob/living/simple_animal/hostile/handy/assaultron,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "mn" = (
 /obj/effect/turf_decal/stripes/line{
 	icon_state = "warningline";
@@ -4923,13 +4923,13 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "mo" = (
 /mob/living/simple_animal/hostile/handy/assaultron,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "mp" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -4938,13 +4938,13 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "mq" = (
 /mob/living/simple_animal/hostile/handy/assaultron,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "mr" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4954,7 +4954,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "ms" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4963,19 +4963,19 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "mt" = (
 /mob/living/simple_animal/hostile/handy/assaultron,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "mu" = (
 /mob/living/simple_animal/hostile/handy/gutsy,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "qm" = (
 /obj/structure/timeddoor,
 /turf/open/floor/plasteel/f13{
@@ -5007,7 +5007,7 @@
 "Jk" = (
 /obj/structure/timeddoor,
 /turf/closed/wall/r_wall,
-/area/f13/enclave)
+/area/f13/followers)
 "PG" = (
 /obj/structure/timeddoor,
 /turf/closed/indestructible/rock,
@@ -5020,7 +5020,7 @@
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
-/area/f13/enclave)
+/area/f13/followers)
 "Tn" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
@@ -91204,7 +91204,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 ad
 ad
 ad
@@ -91606,7 +91606,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 ad
 ad
 ad
@@ -92008,7 +92008,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 Jk
 Jk
 Jk
@@ -92410,7 +92410,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 Jk
 ar
 al
@@ -92812,7 +92812,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 Jk
 af
 am
@@ -93214,7 +93214,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 Jk
 ag
 am
@@ -93616,7 +93616,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 Jk
 ag
 am
@@ -94018,7 +94018,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 Jk
 af
 am
@@ -94420,7 +94420,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 Jk
 ar
 an
@@ -94822,7 +94822,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 Jk
 Jk
 Jk
@@ -95224,7 +95224,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 ad
 ad
 ad
@@ -95626,7 +95626,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 ad
 ad
 ad
@@ -96028,7 +96028,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 ad
 ad
 ad
@@ -96430,7 +96430,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 ad
 ad
 ad
@@ -96832,19 +96832,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -96856,28 +96856,28 @@ ad
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -97234,19 +97234,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -97258,28 +97258,28 @@ ad
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -97636,19 +97636,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -97660,28 +97660,28 @@ ad
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -98038,19 +98038,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -98062,28 +98062,28 @@ ad
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -98440,19 +98440,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -98464,28 +98464,28 @@ ad
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -98842,19 +98842,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -98866,28 +98866,28 @@ ad
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -99244,19 +99244,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -99268,28 +99268,28 @@ ad
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -99646,19 +99646,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -99670,28 +99670,28 @@ ad
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -100048,19 +100048,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -100072,28 +100072,28 @@ ad
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -100474,28 +100474,28 @@ ab
 ab
 ab
 ab
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -100876,28 +100876,28 @@ bh
 bo
 bh
 ab
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -101278,28 +101278,28 @@ bk
 bp
 bh
 ab
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -101680,28 +101680,28 @@ bl
 bh
 bh
 ab
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -102082,28 +102082,28 @@ bm
 bh
 bh
 ab
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -102484,28 +102484,28 @@ bn
 bq
 bh
 ab
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -102886,28 +102886,28 @@ bh
 br
 bh
 ab
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -103288,28 +103288,28 @@ ab
 ab
 ab
 ab
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -103666,19 +103666,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ab
 aF
 aF
@@ -103690,28 +103690,28 @@ ab
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -104068,19 +104068,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ab
 aF
 mo
@@ -104092,28 +104092,28 @@ ab
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -104470,19 +104470,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ab
 aG
 aL
@@ -104494,28 +104494,28 @@ ab
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -104872,19 +104872,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ab
 aF
 aM
@@ -104896,28 +104896,28 @@ ab
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -105274,19 +105274,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ab
 aF
 aF
@@ -105298,28 +105298,28 @@ ab
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -105676,19 +105676,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ab
 ab
 ab
@@ -105700,28 +105700,28 @@ ab
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -106078,19 +106078,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -106102,28 +106102,28 @@ ad
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
@@ -106480,19 +106480,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -106504,28 +106504,28 @@ ad
 ad
 ad
 ad
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 aa
 aa
 aa
