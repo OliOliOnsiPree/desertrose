@@ -370,6 +370,7 @@
 /obj/item/storage/box/large/custom_kit/aphelionroche/PopulateContents()
 	new /obj/item/clothing/suit/toggle/labcoat/fieldscribe(src)
 	new /obj/item/storage/belt/military/alt(src)
+	new /obj/item/clothing/mask/gas/seva(src)
 
 //Matt Sharp - soldierboy2
 /obj/item/storage/box/large/custom_kit/mattsharp/PopulateContents()
@@ -491,6 +492,10 @@
 	new /obj/item/clothing/under/f13/ranger/vet/chinesespecop(src)
 	new /obj/item/storage/belt/military/assault/ncr/crossbelt(src)
 	new /obj/item/clothing/shoes/f13/military(src)
+
+//NCR LT Greatcoat - Pisshole
+/obj/item/storage/box/large/custom_kit/pissholecoat/PopulateContents()
+	new /obj/item/clothing/suit/armor/f13/ncrarmor/lieutenant/ncr_officer_gcoat(src)
 
 //NCR Recon
 /obj/item/storage/box/large/custom_kit/recon/PopulateContents()
