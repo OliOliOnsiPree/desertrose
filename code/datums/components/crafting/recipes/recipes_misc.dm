@@ -30,6 +30,25 @@
 	category = CAT_MISC
 	always_availible = FALSE
 
+/datum/crafting_recipe/gate_khanate
+	name = "Khans steel-reinforced wood door"
+	result = /obj/machinery/door/unpowered/securedoor/khandoor
+	reqs = list(/obj/item/stack/sheet/metal = 5,
+				/obj/item/stack/sheet/mineral/wood = 10,)
+	time = 60
+	subcategory = CAT_MISCELLANEOUS
+	category = CAT_MISC
+	always_availible = FALSE
+
+/datum/crafting_recipe/gate_wayfareroor
+	name = "Wayfarer steel-reinforced wood door"
+	result = /obj/machinery/door/unpowered/securedoor/wayfareroor
+	reqs = list(/obj/item/stack/sheet/metal = 5,
+				/obj/item/stack/sheet/mineral/wood = 10,)
+	time = 60
+	subcategory = CAT_MISCELLANEOUS
+	category = CAT_MISC
+	always_availible = FALSE
 
 /datum/crafting_recipe/plant
 	name = "Potted plant"
@@ -200,23 +219,19 @@
 	subcategory = CAT_MISCELLANEOUS
 	category = CAT_MISC
 
-/datum/crafting_recipe/basaltblock
-	name = "Sintered Basalt Block"
-	result = /obj/item/basaltblock
+/datum/crafting_recipe/quenching
+	name = "Quenching trough"
+	result = /obj/structure/blacksmith/quenching
 	time = 200
-	reqs = list(/obj/item/stack/ore/glass/basalt = 50)
-	tools = list(TOOL_WELDER)
-	subcategory = CAT_MISCELLANEOUS
-	category = CAT_MISC
-
-/datum/crafting_recipe/basaltanvil
-	name = "Basalt Anvil"
-	result = /obj/structure/anvil/obtainable/basalt
-	time = 200
-	reqs = list(/obj/item/basaltblock = 5)
+	reqs = list(
+		/obj/item/stack/sheet/mineral/wood = 6,
+		/obj/item/stack/sheet/metal = 2,
+		/datum/reagent/water = 300,
+		)
 	tools = list(TOOL_CROWBAR)
 	subcategory = CAT_MISCELLANEOUS
 	category = CAT_MISC
+
 ///////////////////
 //Tools & Storage//
 ///////////////////
@@ -454,24 +469,6 @@
 //Unsorted//
 ////////////
 
-
-
-/datum/crafting_recipe/stick
-	name = "Stick"
-	time = 30
-	reqs = list(/obj/item/stack/sheet/mineral/wood = 1)
-	result = /obj/item/stick
-	subcategory = CAT_MISCELLANEOUS
-	category = CAT_MISC
-
-
-/datum/crafting_recipe/swordhilt
-	name = "Sword Hilt"
-	time = 30
-	reqs = list(/obj/item/stack/sheet/mineral/wood = 2)
-	result = /obj/item/swordhandle
-	subcategory = CAT_MISCELLANEOUS
-	category = CAT_MISC
 
 /datum/crafting_recipe/blackcarpet
 	name = "Black Carpet"

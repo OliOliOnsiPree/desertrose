@@ -226,6 +226,185 @@
 	suit = /obj/item/clothing/suit/armor/f13/power_armor/advanced
 	head = /obj/item/clothing/head/helmet/f13/power_armor/advanced/mk2
 
+//////////////////////
+//    SNEEDCLAVE   //
+/////////////////////
+
+/mob/living/simple_animal/hostile/modernenclave
+	name = "enclave infantryman"
+	desc = "A mysterious soldier wearing heavily modified combat armor very much ressembling a power armor at this point, he holds a G11."
+	icon = 'icons/fallout/mobs/humans/fallout_npc.dmi'
+	icon_state = "sneedclave_infantry"
+	icon_living = "sneedclave_infantry"
+	icon_dead = "sneedclave_dead"
+	maxHealth = 500
+	health = 500
+	melee_damage_lower = 35
+	melee_damage_upper = 40
+	extra_projectiles = 3
+	ranged_cooldown_time = 20
+	decompose = 0
+	healable = 1
+	ranged = 1
+	attack_verb_simple = "gun-butts"
+	projectiletype = /obj/item/projectile/bullet/a473
+	projectilesound = 'sound/f13weapons/assaultrifle_fire.ogg'
+	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
+	turns_per_move = 5
+	response_help_simple = "pokes"
+	response_disarm_simple = "shoves"
+	response_harm_simple = "hits"
+	speed = 1
+	stat_attack = UNCONSCIOUS
+	robust_searching = 1
+	a_intent = INTENT_HARM
+	faction = list("enclave")
+	check_friendly_fire = 1
+	status_flags = CANPUSH
+	del_on_death = 0
+	speak = list("For the Enclave!", "Stars and Stripes!", "Liberty or death!")
+	speak_emote = list("says", "lectures", "rants", "talks down", "goes on")
+	speak_chance = 4
+	taunt_chance = 0
+	retreat_distance = 2
+	minimum_distance = 4
+	check_friendly_fire = 1
+
+/mob/living/simple_animal/hostile/modernenclave/bullet_act(obj/item/projectile/Proj)
+	if(!Proj)
+		CRASH("[src] sentrybot invoked bullet_act() without a projectile")
+	if(prob(70) || Proj.damage > 35)
+		return ..()
+	else
+		visible_message(SPAN_DANGER("\The [Proj] bounces off \the [src]'s armor plating!"))
+		return FALSE
+
+/mob/living/simple_animal/hostile/modernenclave/xl7
+	desc = "A mysterious soldier wearing heavily modified combat armor very much ressembling a power armor at this point, he holds a XL70E3."
+	icon_state = "sneedclave_infantry_b"
+	icon_living = "sneedclave_infantry_b"
+	retreat_distance = 4
+	minimum_distance = 6
+	projectiletype = /obj/item/projectile/bullet/a762/match
+	projectilesound = 'sound/f13weapons/m14.ogg'
+	ranged_cooldown_time = 25
+	extra_projectiles = 1
+
+/mob/living/simple_animal/hostile/modernenclave/rocket
+	desc = "A mysterious soldier wearing heavily modified combat armor very much ressembling a power armor at this point, he holds a rocket launcher."
+	icon_state = "sneedclave_infantry_c"
+	icon_living = "sneedclave_infantry_c"
+	retreat_distance = 6
+	minimum_distance = 8
+	projectiletype = /obj/item/projectile/bullet/a40mm
+	projectilesound = 'sound/weapons/grenadelaunch.ogg'
+	ranged_cooldown_time = 75
+	extra_projectiles = 0
+
+/mob/living/simple_animal/hostile/modernenclave/heavy
+	name = "enclave elite"
+	desc = "A massive armored hulk covered up in pristine state of the art power armor, he menacingly wields a plasma rifle."
+	icon_state = "sneedclave_heavy"
+	icon_living = "sneedclave_heavy"
+	icon_dead = "sneedclave_heavy_dead"
+	maxHealth = 1500
+	health = 1500
+	extra_projectiles = 1
+	ranged_cooldown_time = 25
+	projectiletype = /obj/item/projectile/f13plasma/pistol
+	projectilesound = 'sound/f13weapons/plasma_rifle.ogg'
+	speed = 0.8
+	speak = list("For the Enclave!", "Stars and Stripes!", "Liberty or death!", "Just another naive bimbo to put down!", "I will be enjoying this!")
+	retreat_distance = 2
+	minimum_distance = 5
+	obj_damage = 200
+	environment_smash = 2
+	armour_penetration = 0.5 //powerfist
+	attack_verb_simple = "power-slams"
+
+/mob/living/simple_animal/hostile/modernenclave/heavy/pulse
+	desc = "A massive armored hulk covered up in pristine state of the art power armor, he menacingly wields a pulse rifle."
+	icon_state = "sneedclave_heavy_b"
+	icon_living = "sneedclave_heavy_b"
+	extra_projectiles = 0
+	ranged_cooldown_time = 20
+	projectiletype = /obj/item/projectile/beam/laser/oldpulse
+	projectilesound = 'sound/weapons/ionrifle.ogg'
+
+//////////////////////
+//       HECU      //
+/////////////////////
+
+/mob/living/simple_animal/hostile/hecu
+	name = "HECU infantry member"
+	desc = "A member of the hazardous enviroment combat unit often shortened to just HECU, they bear West-tek markings and are clearly ready to kill."
+	icon = 'icons/fallout/mobs/humans/fallout_npc.dmi'
+	icon_state = "hecu"
+	icon_living = "hecu"
+	icon_dead = "hecu_dead"
+	maxHealth = 500
+	health = 500
+	melee_damage_lower = 80
+	melee_damage_upper = 80
+	attack_sound = 'sound/f13weapons/max_sawn_off.ogg'
+	attack_verb_simple = "point-blanks"
+	sharpness = SHARP_EDGED
+	armour_penetration = 0.3
+	extra_projectiles = 2
+	ranged_cooldown_time = 35
+	decompose = 0
+	ranged = 1
+	projectiletype = /obj/item/projectile/bullet/c5mm
+	projectilesound = 'sound/f13weapons/marksman_rifle.ogg'
+	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
+	turns_per_move = 8
+	response_help_simple = "pokes"
+	response_disarm_simple = "shoves"
+	response_harm_simple = "hits"
+	speed = 0.8
+	stat_attack = UNCONSCIOUS
+	robust_searching = 1
+	a_intent = INTENT_HARM
+	check_friendly_fire = 1
+	status_flags = CANPUSH
+	del_on_death = 0
+	speak = list("Boogie sighted!", "Got eyes on the target!", "Engaging target!")
+	speak_chance = 4
+	taunt_chance = 0
+	retreat_distance = 2
+	minimum_distance = 4
+	check_friendly_fire = 1
+
+/mob/living/simple_animal/hostile/hecu/bullet_act(obj/item/projectile/Proj)
+	if(!Proj)
+		CRASH("[src] sentrybot invoked bullet_act() without a projectile")
+	if(prob(10) && health > 1)
+		visible_message(SPAN_DANGER("\The [src] drops a frag grenade under their feet!"))
+		var/flashbang_turf = get_turf(src)
+		if(!flashbang_turf)
+			return
+		var/obj/item/grenade/f13/frag/sentry/S = new /obj/item/grenade/f13/frag/sentry(flashbang_turf)
+		S.preprime(user = null)
+	if(prob(90) || Proj.damage > 20)
+		return ..()
+	else
+		visible_message(SPAN_DANGER("\The [Proj] bounces off \the [src]'s armor plating!"))
+		return FALSE
+
+/mob/living/simple_animal/hostile/hecu/leader
+	name = "HECU infantry squad leader"
+	desc = "A member of the hazardous enviroment combat unit often shortened to just HECU, they bear West-tek markings and are clearly ready to kill. This one looks like he is in charge."
+	icon = 'icons/fallout/mobs/humans/fallout_npc.dmi'
+	icon_state = "hecu_sl"
+	icon_living = "hecu_sl"
+	icon_dead = "hecu_sl_dead"
+	attack_sound = 'sound/weapons/bladeslice.ogg'
+	attack_verb_simple = "slashes"
+	armour_penetration = 0.2
+	extra_projectiles = 0
+	ranged_cooldown_time = 25
+	projectiletype = /obj/item/projectile/bullet/a50MG
+	projectilesound = 'sound/f13weapons/44mag.ogg'
 
 /////////////////////
 // BROTHERHOOD NPC //

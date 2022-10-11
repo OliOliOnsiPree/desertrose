@@ -73,6 +73,7 @@ Great Khans
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/khanbatarmor)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/reinforcedkhanbatarmor)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/gate_khanate)
 
 /datum/outfit/job/wasteland/f13genghis
 	name = "Genghis Khan"
@@ -162,6 +163,7 @@ Great Khans
 	ADD_TRAIT(H, TRAIT_CHEM_USER, src)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/khanbatarmor)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/reinforcedkhanbatarmor)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/gate_khanate)
 
 	if(!H.gang)
 		var/datum/gang/greatkhans/GK = GLOB.greatkhans
@@ -238,7 +240,7 @@ Bandit
 	description = "You are a low-level delinquent with a proclivity for malice, scrounging by for more caps, food and other necessities in the cruel wasteland.  You haven’t quite gained the reputation, contacts and skills to call yourself an Outlaw, so it would be in your best interest to follow their lead to create a superior force – there is a reason they made it so far, and they can help you move up the food chain. You are responsible for causing conflict and strife, you are a simple criminal who engages in nefarious shenanigans which make the wasteland more dangerous; however, you still have a responsibility to make your time here interesting, fun, and engaging for others - this means that whatever path you pursue should be more nuanced and flavorful than simple killing for the sake of it. You are expected to have a high level of roleplay, be OK with losing, and to not take things personally or you may lose the privilege to play this occupation. Treat this role as a first stepping stone to Antagonism, don’t be afraid to try things out, as long as you try to generate fun conflict while minding the rules you are doing everything right. Performing well as a Bandit is a great way to show you're capable of stepping up to the next level... And remember, losing is fun!"
 	supervisors = "Your desire to make things interesting and fun"
 	selection_color = "#ff4747"
-	exp_requirements = 1800
+	exp_requirements = 1200
 	exp_type = EXP_TYPE_WASTELAND
 
 	outfit = /datum/outfit/job/wasteland/f13bandit
@@ -363,7 +365,10 @@ Outlaw
 	/datum/outfit/loadout/raider_bos,
 	/datum/outfit/loadout/raider_ncr,
 	/datum/outfit/loadout/raider_legion,
-	/datum/outfit/loadout/raider_vault
+	/datum/outfit/loadout/raider_vault,
+	/datum/outfit/loadout/whiteleg,
+	/datum/outfit/loadout/eighties,
+	/datum/outfit/loadout/bonedancerexile
 	)
 
 /datum/outfit/job/wasteland/f13raider/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -612,6 +617,48 @@ Outlaw
 		/obj/item/assembly/flash/handheld=1,
 		/obj/item/melee/classic_baton/telescopic=1
 		)
+
+/datum/outfit/loadout/whiteleg
+	name = "White Leg Tribal"
+	uniform = /obj/item/clothing/under/f13/whitelegs
+	suit = /obj/item/clothing/suit/f13/tribal/light/whitelegs
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/female/whitelegs = 1,
+		/obj/item/gun/ballistic/automatic/smg/tommygun = 1,
+		/obj/item/ammo_box/magazine/tommygunm45 = 2,
+		/obj/item/melee/unarmed/maceglove = 1,
+		/obj/item/warpaint_bowl = 1,
+		/obj/item/reagent_containers/pill/patch/f13/healpoultice = 2
+	)
+
+/datum/outfit/loadout/eighties
+	name = "Eighties Tribal"
+	suit = /obj/item/clothing/suit/f13/tribal/heavy/eighties
+	uniform = /obj/item/clothing/under/f13/eighties
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/female/eighties = 1,
+		/obj/item/gun/ballistic/automatic/smg/greasegun = 1,
+		/obj/item/ammo_box/magazine/greasegun = 2,
+		/obj/item/reagent_containers/pill/patch/f13/healpoultice = 3,
+		/obj/item/reagent_containers/pill/patch/f13/turbo = 1,
+		/obj/item/reagent_containers/pill/patch/f13/jet  = 2,
+		/obj/item/warpaint_bowl = 1,
+		/obj/item/storage/belt/utility/full = 1
+	)
+
+/datum/outfit/loadout/bonedancerexile
+	name = "Bone Dancer Exile"
+	suit = /obj/item/clothing/suit/f13/tribal/heavy/bone
+	uniform = /obj/item/clothing/under/f13/bone
+	backpack_contents = list(
+		/obj/item/clothing/head/helmet/skull = 1,
+		/obj/item/twohanded/spear/bonespear = 1,
+		/obj/item/gun/ballistic/automatic/sturdybow = 1,
+		/obj/item/storage/belt/tribe_quiver = 1,
+		/obj/item/warpaint_bowl = 1,
+		/obj/item/ammo_casing/caseless/arrow/bone = 7,
+		/obj/item/reagent_containers/pill/patch/f13/healpoultice = 3
+	)
 
 /datum/job/wasteland/f13wastelander
 	title = "Wastelander"
@@ -943,21 +990,14 @@ Outlaw
 	/datum/outfit/loadout/tbrawler,
 	/datum/outfit/loadout/spearman,
 	/datum/outfit/loadout/shaman,
-	/datum/outfit/loadout/whitelegsmelee,
-	/datum/outfit/loadout/whitelegsranged,
-	/datum/outfit/loadout/whitelegsshaman,
 	/datum/outfit/loadout/deadhorsesmelee,
 	/datum/outfit/loadout/deadhorsesranged,
 	/datum/outfit/loadout/deadhorsesshaman,
 	/datum/outfit/loadout/sorrowshunter,
 	/datum/outfit/loadout/sorrowsshaman,
-	/datum/outfit/loadout/eightiesmelee,
-	/datum/outfit/loadout/eightiesranged,
-	/datum/outfit/loadout/eightiesshaman,
 	/datum/outfit/loadout/rustwalkersscipher,
 	/datum/outfit/loadout/rustwalkersscrapper,
-	/datum/outfit/loadout/rustwalkersshaman,
-	/datum/outfit/loadout/bonedancerexile
+	/datum/outfit/loadout/rustwalkersshaman
 	)
 
 //Generic Tribals
@@ -996,38 +1036,6 @@ Outlaw
 		/obj/item/reagent_containers/pill/patch/f13/healpoultice = 1
 	)
 
-//White Legs
-/datum/outfit/loadout/whitelegsmelee
-	name = "White Legs Bone-Breaker"
-	suit = /obj/item/clothing/suit/f13/tribal/light/whitelegs
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/whitelegs = 1,
-		/obj/item/clothing/under/f13/female/whitelegs = 1,
-		/obj/item/melee/unarmed/maceglove = 1,
-		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
-		/obj/item/reagent_containers/pill/patch/f13/healpoultice = 1
-	)
-
-/datum/outfit/loadout/whitelegsranged
-	name = "White Legs Storm-Drummer"
-	suit = /obj/item/clothing/suit/f13/tribal/whitelegs
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/whitelegs = 1,
-		/obj/item/clothing/under/f13/female/whitelegs = 1,
-		/obj/item/gun/ballistic/automatic/smg/tommygun = 1,
-		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
-		/obj/item/reagent_containers/pill/patch/f13/healpoultice = 1,
-		/obj/item/ammo_box/magazine/tommygunm45 = 2
-	)
-
-/datum/outfit/loadout/whitelegsshaman
-	name = "White Legs Arm-Makers"
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/whitelegs = 1,
-		/obj/item/clothing/under/f13/female/whitelegs = 1,
-		/obj/item/twohanded/fireaxe = 1,
-		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
-	)
 
 //Dead Horses
 /datum/outfit/loadout/deadhorsesmelee
@@ -1089,45 +1097,6 @@ Outlaw
 		/obj/item/toy/crayon/spraycan = 2
 	)
 
-//Eighties
-/datum/outfit/loadout/eightiesmelee
-	name = "Eighties Path-Maker"
-	suit = /obj/item/clothing/suit/f13/tribal/eighties
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/eighties = 1,
-		/obj/item/clothing/under/f13/female/eighties = 1,
-		/obj/item/gun/ballistic/shotgun/trench = 1,
-		/obj/item/ammo_box/shotgun/buck = 2,
-		/obj/item/reagent_containers/pill/patch/f13/healpoultice = 2,
-		/obj/item/reagent_containers/pill/patch/f13/turbo = 2,
-		/obj/item/reagent_containers/pill/patch/f13/jet  = 2
-	)
-
-/datum/outfit/loadout/eightiesranged
-	name = "Eighties Road-Warrior"
-	suit = /obj/item/clothing/suit/f13/tribal/heavy/eighties
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/eighties = 1,
-		/obj/item/clothing/under/f13/female/eighties = 1,
-		/obj/item/gun/ballistic/revolver/single_shotgun = 1,
-		/obj/item/ammo_box/shotgun/buck = 1,
-		/obj/item/gun/ballistic/automatic/smg/greasegun = 1,
-		/obj/item/ammo_box/magazine/greasegun = 2,
-		/obj/item/reagent_containers/pill/patch/f13/healpoultice = 2
-	)
-
-/datum/outfit/loadout/eightiesshaman
-	name = "Eighties Lay-Mechanic"
-	suit = /obj/item/clothing/suit/f13/tribal/light/eighties
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/eighties = 1,
-		/obj/item/clothing/under/f13/female/eighties = 1,
-		/obj/item/gun/ballistic/revolver/single_shotgun = 1,
-		/obj/item/ammo_box/shotgun/slug = 1,
-		/obj/item/reagent_containers/pill/patch/f13/healpoultice = 2,
-		/obj/item/storage/belt/utility/full = 1,
-	)
-
 //Rustwalkers
 /datum/outfit/loadout/rustwalkersscipher
 	name = "Rustwalkers Scipher"
@@ -1165,17 +1134,7 @@ Outlaw
 		/obj/item/storage/belt/utility/full = 1,
 
 	)
-//Bone Dancer
-/datum/outfit/loadout/bonedancerexile
-	name = "Bone Dancer Exile"
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/bone = 1,
-		/obj/item/clothing/head/helmet/skull = 1,
-		/obj/item/twohanded/spear/bonespear = 1,
-		/obj/item/warpaint_bowl=1,
-		/obj/item/reagent_containers/pill/patch/f13/healpoultice = 2
 
-	)
 
 /datum/outfit/job/wasteland/f13tribal
 	name = "Tribal"
@@ -1234,8 +1193,8 @@ Outlaw
 	description = "You are a beacon of faith in the wasteland. Guide the Town and any others who wish to be led on spiritual matters, and try to build your flock. Remember, the Oasis Oak and the Church are the centre of your religion - protect them at all costs."
 	selection_color = "#dcba97"
 
-	exp_requirements = 12
-	exp_type = EXP_TYPE_CREW
+	exp_requirements = 300
+	exp_type = EXP_TYPE_WASTELAND
 
 	outfit = /datum/outfit/job/wasteland/f13preacher
 
